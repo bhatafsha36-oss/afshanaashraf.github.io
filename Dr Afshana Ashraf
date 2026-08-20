@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dr. Afshana Ashraf | Physiotherapist</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f7fbfa;
+      color: #183b3a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f766e;
+      color: white;
+      padding: 18px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    header p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .hero {
+      padding: 70px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #e6fffa, #f7fbfa);
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+      color: #115e59;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 25px;
+      background: #0f766e;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 55px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #115e59;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #0f766e;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #e6fffa;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    footer {
+      background: #134e4a;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 29px;
+      }
+
+      section {
+        padding: 40px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Dr. Afshana Ashraf, PT</h1>
+    <p>Physiotherapy & Home Visit Services</p>
+  </header>
+
+  <div class="hero">
+    <h2>Move Better. Feel Better.</h2>
+
+    <p>
+      Professional physiotherapy care at the comfort of your home.
+      Personalized treatment designed around your needs.
+    </p>
+
+    <a class="button" href="#contact">Book a Home Visit</a>
+  </div>
+
+  <section>
+    <h2>About Me</h2>
+
+    <div class="about">
+      <p>
+        I am Dr. Afshana Ashraf, a physiotherapist providing
+        personalized physiotherapy care and home-based rehabilitation.
+        My goal is to help patients improve movement, reduce pain,
+        regain strength and become more independent in daily activities.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Physiotherapy Services</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Pain Management</h3>
+        <p>
+          Physiotherapy management for back pain, neck pain,
+          joint pain and muscular problems.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Orthopaedic Rehab</h3>
+        <p>
+          Rehabilitation after injuries, fractures, surgeries
+          and orthopaedic conditions.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Neurological Rehab</h3>
+        <p>
+          Exercise-based rehabilitation to improve strength,
+          balance, mobility and functional independence.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Geriatric Physiotherapy</h3>
+        <p>
+          Safe exercises and mobility training for older adults
+          to maintain independence and confidence.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Home Physiotherapy</h3>
+        <p>
+          Personalized physiotherapy sessions delivered
+          conveniently at your home.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Exercise Therapy</h3>
+        <p>
+          Individualized therapeutic exercises for strength,
+          flexibility, balance and mobility.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Choose Home Physiotherapy?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🏠 Convenient</h3>
+        <p>Receive treatment in the comfort of your own home.</p>
+      </div>
+
+      <div class="card">
+        <h3>🎯 Personalized</h3>
+        <p>Treatment and exercises are tailored to your condition.</p>
+      </div>
+
+      <div class="card">
+        <h3>💪 Functional</h3>
+        <p>Focus on improving movement and everyday activities.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+
+    <h2>Book a Home Visit</h2>
+
+    <p>
+      Interested in physiotherapy at home?
+      Get in touch to discuss your requirements.
+    </p>
+
+    <!-- Replace the number below with your WhatsApp number -->
+    <a class="button"
+       href="https://wa.me/91XXXXXXXXXX"
+       target="_blank">
+       WhatsApp Me
+    </a>
+
+    <br><br>
+
+    <p>
+      📍 Home Physiotherapy Sessions<br>
+      📞 Contact for appointment
+    </p>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Dr. Afshana Ashraf, PT</p>
+    <p>Physiotherapy & Home Visit Services</p>
+  </footer>
+
+</body>
+</html>
